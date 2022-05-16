@@ -1,0 +1,29 @@
+apiVersion: v1
+entries:
+  superinsight:
+  - annotations:
+      category: Artificial Intelligence
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2022-05-17T03:30:30.606923+08:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.1.22
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.3.1
+    description: AI Data Visualization and Data Exploration Platform build on top
+      of apache superset
+    digest: e49c29fbd680b9bee18bcffc6629884397960762a468be2593cef47e7f0264d4
+    maintainers:
+    - email: superinsightai@gmail.com
+      name: superinsight
+      url: https://github.com/superinsight
+    name: superinsight
+    urls:
+    - https://superinsight.github.io/superinsight-page-helm/superinsight-0.6.1.tgz
+    version: 0.6.1
+generated: "2022-05-17T03:30:30.598224+08:00"
